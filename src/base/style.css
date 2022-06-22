@@ -213,6 +213,22 @@
   text-decoration: none;
 }
 
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.btn-primary {
+  background-color: var(--primary-brand);
+  border-color: var(--primary-brand);
+  color: var(--white);
+  text-transform: uppercase;
+  border-radius: 28px;
+}
+
+.text-center {
+  text-align: center;
+}
+
 @media (min-width: 1024px) {
   .container {
     padding: 0 100px;

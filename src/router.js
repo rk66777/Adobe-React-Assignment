@@ -16,7 +16,6 @@ const Router = () => (
     <BrowserRouter>
     <App>
         <Header />
-        {/* <ProductListing /> */}
         <Routes>
           <Route path="/" element={<ProductListing />}></Route>
           <Route path="products/:id" element={<ProductDetail />} />
