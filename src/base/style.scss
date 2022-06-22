@@ -1,0 +1,50 @@
+@import './breakpoints';
+@import './mixins';
+@import './defaultstyle';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.container {
+    padding: 0 15px;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+.align-items-end{
+    align-items: flex-end;
+}
+.d-none{
+    display: none;
+}
+.d-block{
+    display: block;
+}
+.no-underline{
+    text-decoration: none;
+}
+
+@include desktop {
+    .container {
+        padding: 0 100px;
+    }
+    .d-lg-block{
+        display: block;
+    }
+    .d-lg-none{
+        display: none;
+    }
+    .d-lg-flex{
+        display: flex !important;
+    }
+}
