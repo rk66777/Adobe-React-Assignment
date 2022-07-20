@@ -1,10 +1,10 @@
 :root {
 
     /* Colors: */
-    --primary-d1: #172BC4;
-    --primary-m1: #336DFF;
-    --primary-brand: #1F39FF;
-    --primary-l1: #3D84FF;
+    --primary-d1: #FF8243;
+    --primary-m1: #FDA65D;
+    --primary-brand: #E26A2C;
+    --primary-l1: #FFD07F;
     --gray-d2: #181C24;
     --gray-d1: #535965;
     --gray-m1: #91959C;
@@ -41,7 +41,7 @@
     --unnamed-line-spacing-45: 45px;
     --unnamed-line-spacing-60: 60px;
     --unnamed-line-spacing-17-5: 17.5px;
-}
+    }
     
     /* Character Styles */
     .display-xl-48-dekstop-only {
@@ -81,7 +81,7 @@
     color: var(--unnamed-color-172026);
     }
     .regular-heading-xl-24- {
-    font-family: var(--unnamed-font-family-Muli);
+    font-family: var(--unnamed-font-family-muli);
     font-style: var(--unnamed-font-style-normal);
     font-weight: var(--unnamed-font-weight-600);
     font-size: var(--unnamed-font-size-24);
@@ -90,7 +90,7 @@
     color: var(--unnamed-color-172026);
     }
     .regular-heading-l-20- {
-    font-family: var(--unnamed-font-family-Muli);
+    font-family: var(--unnamed-font-family-muli);
     font-style: var(--unnamed-font-style-normal);
     font-weight: var(--unnamed-font-weight-600);
     font-size: var(--unnamed-font-size-20);
@@ -99,7 +99,7 @@
     color: var(--unnamed-color-172026);
     }
     .regular-heading-m-16- {
-    font-family: var(--unnamed-font-family-Muli);
+    font-family: var(--unnamed-font-family-muli);
     font-style: var(--unnamed-font-style-normal);
     font-weight: var(--unnamed-font-weight-600);
     font-size: var(--unnamed-font-size-16);
@@ -108,7 +108,7 @@
     color: var(--unnamed-color-172026);
     }
     .regular-heading-s-14- {
-    font-family: var(--unnamed-font-family-Muli);
+    font-family: var(--unnamed-font-family-muli);
     font-style: var(--unnamed-font-style-normal);
     font-weight: var(--unnamed-font-weight-bold);
     font-size: var(--unnamed-font-size-14);
@@ -117,7 +117,7 @@
     color: var(--unnamed-color-172026);
     }
     .regular-body-l-20- {
-    font-family: var(--unnamed-font-family-Muli);
+    font-family: var(--unnamed-font-family-muli);
     font-style: var(--unnamed-font-style-normal);
     font-weight: var(--unnamed-font-weight-normal);
     font-size: var(--unnamed-font-size-20);
@@ -126,7 +126,7 @@
     color: var(--unnamed-color-172026);
     }
     .regualr-body-m-16- {
-    font-family: var(--unnamed-font-family-Muli);
+    font-family: var(--unnamed-font-family-muli);
     font-style: var(--unnamed-font-style-normal);
     font-weight: var(--unnamed-font-weight-normal);
     font-size: var(--unnamed-font-size-16);
@@ -135,7 +135,7 @@
     color: var(--unnamed-color-172026);
     }
     .regular-body-s-14- {
-    font-family: var(--unnamed-font-family-Muli);
+    font-family: var(--unnamed-font-family-muli);
     font-style: var(--unnamed-font-style-normal);
     font-weight: var(--unnamed-font-weight-normal);
     font-size: var(--unnamed-font-size-14);
@@ -144,7 +144,7 @@
     color: var(--unnamed-color-172026);
     }
     .blockquote {
-    font-family: var(--unnamed-font-family-Muli);
+    font-family: var(--unnamed-font-family-muli);
     font-style: var(--unnamed-font-style-italic);
     font-weight: var(--unnamed-font-weight-normal);
     font-size: var(--unnamed-font-size-20);
@@ -153,7 +153,7 @@
     color: var(--gray-d2);
     }
     .numbered-list {
-    font-family: var(--unnamed-font-family-Muli);
+    font-family: var(--unnamed-font-family-muli);
     font-style: var(--unnamed-font-style-normal);
     font-weight: var(--unnamed-font-weight-normal);
     font-size: var(--unnamed-font-size-16);

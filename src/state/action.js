@@ -10,6 +10,25 @@ const fetch_products = () => async dispatch => {
 
 }
 
+export const  addtocart_action= (res) => {
+    return{
+        type: 'ADD_TO_CART',
+        payload: res
+    }
+}
 
+export const  addtocheckout_action= (res) => {
+    return{
+        type: 'ADD_TO_CHECKOUT',
+        payload: res
+    }
+}
+
+export const  checkout_action= (res) => {
+    return{
+        type: 'CHECKOUT_DATA',
+        payload: res
+    }
+}
 
 export default fetch_products;

@@ -5,6 +5,7 @@
 @import '../../../framework/aem-grid-12';
 
 .header-container{
+    background-color: $primary-brand;
     .header{
         padding: 15px 5px;
         .navbar{
@@ -23,6 +24,7 @@
                 letter-spacing: 2px;
                 text-align: right;
                 flex-basis: 50%;
+                color: $color_white;
             }
             .align-right{
                 flex-basis: 40%;
@@ -70,9 +72,14 @@
                 .logo{
                     max-width: 100%;
                 }
+                .nav-title{
+                    font: normal normal normal 22px/24px Mulish;
+                    letter-spacing: 2px;
+                    color: $color_white;
+                }
             }
             .menu{
-                width: 65%;
+                width: 80%;
                 display: flex;
                 justify-content: center;               
                 padding: 0;
@@ -82,15 +89,15 @@
                     .item{
                         font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-muli);
                         font: normal normal 600 16px/24px Mulish;
-                        color: $text-color;
+                        color: $color_white;
                         text-decoration: none;
                     }
                 }
             }
             .menu-right{
-                width: 25%;
+                width: 10%;
                 display: flex;
-                justify-content: space-between;
+                justify-content: flex-end;
                 .seacrh-icon{
                     width: 17px;
                     height: 17px;
@@ -118,7 +125,7 @@
                 .item-text{
                     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-600) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-24) var(--unnamed-font-family-muli);
                     font: normal normal 600 16px/24px Mulish;
-                    color: $text-color;
+                    color: $color_white;
                     padding-left: 20px;
                     white-space: nowrap;
                 }

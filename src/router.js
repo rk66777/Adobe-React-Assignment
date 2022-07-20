@@ -8,7 +8,9 @@ import { Provider } from "react-redux";
 import Footer from "./components/Footer/footer";
 import ProductDetail from "./components/ProductDetail/productdetail";
 import Cart from "./components/Cart/cart";
-
+import Home from "./components/Home/home";
+import Checkout from "./components/Checkout/chekcout";
+import Shipping from "./components/Shipping/shipping";
 
 const Router = () => (
   
@@ -17,9 +19,13 @@ const Router = () => (
     <App>
         <Header />
         <Routes>
-          <Route path="/" element={<ProductListing />}></Route>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/productlisting" element={<ProductListing />}></Route>
           <Route path="products/:id" element={<ProductDetail />} />
           <Route path="cart" element={<Cart />} />
+          <Route path="checkout" element={<Checkout />} />
+          <Route path="shipping" element={<Shipping />} />
+          
         </Routes>
         <Footer />
     </App>

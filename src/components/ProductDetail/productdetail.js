@@ -3,6 +3,7 @@ import { useDispatch } from 'react-redux';
 import { useParams } from 'react-router';
 import './styles/productdetail.scss';
 import { useNavigate } from "react-router-dom";
+import { addtocart_action } from "../../state/action";
 
 const ProductDetail = () => {
 
@@ -31,16 +32,17 @@ const ProductDetail = () => {
 
     const Loading = () => {
         return (
-            Loading
+            <>Loading</>
         )
     }
-    const ViewProductDetails = () => {
+
         let navigate = useNavigate();
-        async function handleProduct(event) {
-            event.preventDefault();
-            // await submitForm(event.target);
-            navigate("./cart");
+        const addProduct =(product) =>{
+            dispatch(addtocart_action(product));
+            navigate("/cart");
         }
+
+    const ViewProductDetails = () => {
 
         return (
             <div className="aem-Grid">
@@ -72,8 +74,8 @@ const ProductDetail = () => {
 
                         <p className="product-desc"> {product.description}</p>
                         <hr />
-                        <button className="btn btn-primary add-cart" onClick={handleProduct} >
-                            Add to Cart
+                        <button className="btn btn-primary add-cart" onClick={ () => addProduct(product)} >
+                            ADD TO CART
                         </button>
 
                     </div>
